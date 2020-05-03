@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>CS50</title>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+        <h1 id="title">Project0 homework</h1>
+        <a href="https://raychau00905.blogspot.com/">This is a my blog.</a>
+        </header>>
+        <nav>
+        <ul class="tabs">
+            <li data-tab-target="#home" class="active tab">Home</li>
+            <li data-tab-target="#about" class="tab">About</li>
+            <li data-tab-target="#coming" class="tab">Coming soon</li>
+        </ul>
+        </nav>>
+        <section>
+            <div id="home" data-tab-content class="active">
+                <h1>Home</h1>
+                <p>This is home.</p>
+            </div>
+            <div id="About" data-tab-content>
+                <h1>About</h1>
+                <p>Three words to explain who am I.</p>
+                <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <h6>Dance</h6>
+                        <p>I dance since 2012. I love house dance.</p>
+                      </div>
+                      <div class="col-sm">
+                        <h6>Marketing Cloud</h6>
+                        <p>This is a marketing tool. I planned to get the related certification this year.</p>
+                      </div>
+                      <div class="col-sm">
+                        <h6>Japanese</h6>
+                        <p>I am trying self-study japanese. The first step is to learn 50 letters.</p>
+                      </div>
+                    </div>
+                  </div>
+                <button onclick="backtohome()" type="button" class="btn btn-primary">Back To Home</button>
+            </div>
+            <div id="Coming" data-tab-content>
+                <h1>Coming soon</h1>
+                <p>This is coming soon.</p>
+                <button onclick="backtohome()" type="button" class="btn btn-primary">Back To Home</button>
+            </div>
+        </section>
+        <footer></footer>
+    </body>
+</html>
